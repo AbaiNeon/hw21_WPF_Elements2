@@ -1,0 +1,40 @@
+﻿<Window
+    x:Class="hw21_WPF_Elements2.MainWindow"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    Title="MainWindow"
+    Width="525"
+    Height="350">
+    <Grid>
+        <TextBox
+            Name="textBox"
+            Width="335"
+            Height="205"
+            Margin="35,41,0,0"
+            HorizontalAlignment="Left"
+            VerticalAlignment="Top"
+            TextWrapping="Wrap" />
+        <Button
+            Width="75"
+            Margin="410,41,0,0"
+            HorizontalAlignment="Left"
+            VerticalAlignment="Top"
+            Click="CutButtonClick"
+            Content="Cut" />
+        <Button
+            Width="75"
+            Margin="410,68,0,0"
+            HorizontalAlignment="Left"
+            VerticalAlignment="Top"
+            Click="CopyButtonClick"
+            Content="Copy" />
+        <Button
+            Width="75"
+            Margin="410,95,0,0"
+            HorizontalAlignment="Left"
+            VerticalAlignment="Top"
+            Click="PasteButtonClick"
+            Content="Paste" />
+
+    </Grid>
+</Window>
